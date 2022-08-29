@@ -1,31 +1,24 @@
 ---
-date: 2022-03-12T17:00:00+00:00
+date: 2022-03-12T17:00:00.000+00:00
 title: Kelas Coding For Kids
 slug: coding-for-kids
 tags:
-- islam
-- ekonomi
-- akad akad
-- 'akad '
+- coding
+- coding for kids
+- pams
+- pams syuhada
 categories:
-- kajian ahad pagi
+- teknologi
+linkdaftar: https://pamssyuhada.netlify.app
+mentor: kak Wildan
+pendaftaran: 10 Agustus 2022 - 5 Desember 2022
+pelaksanaan: 6 Desember 2022
+biaya: "100000"
+berapapertemuan: 10 x
+thumbnail: https://drive.google.com/uc?export=view&id=1XtCZhJ2mq8LjlFJK6TA0fmo2qi5aRyes
+gambar: https://drive.google.com/uc?export=view&id=1XtCZhJ2mq8LjlFJK6TA0fmo2qi5aRyes
+materi: 'belajar membuat game dengan menggunakan scratcth '
 
-linkdaftar: 'https://pamssyuhada.netlify.app'
-mentor: 'kak Wildan'
-pendaftaran: '10 Agustus 2022 - 5 Desember 2022'
-pelaksanaan: '6 Desember 2022'
-biaya: '100000'
-berapapertemuan: '6 x'
-
-
-thumbnail: https://i.ibb.co/sH66fz9/Whats-App-Image-2022-03-15-at-11-29-32-AM.jpg
-gambar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/No_image_3x4.svg/1280px-No_image_3x4.svg.png'
-
-materi: '
- - html
- - css
- -js
-'
 ---
 Bismillahirohmanirohim,
 Assalamualaikum Warahmatullahi Wabarakatuh
