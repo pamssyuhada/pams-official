@@ -1,0 +1,46 @@
+---
+label: kelas
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: linkdaftar
+  label: linkdaftar
+- type: text
+  name: mentor
+  label: mentor
+- type: text
+  name: pendaftaran
+  label: pendaftaran
+- type: datetime
+  name: pelaksanaan
+  label: pelaksanaan
+- type: text
+  name: biaya
+  label: biaya
+- type: text
+  name: berapapertemuan
+  label: berapapertemuan
+- type: text
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: gambar
+  label: gambar
+- type: text
+  name: materi
+  label: materi
