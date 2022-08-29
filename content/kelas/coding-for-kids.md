@@ -1,6 +1,6 @@
 ---
 date: 2022-03-12T17:00:00.000+00:00
-title: Kelas Andropid For Kids
+title: Kelas Android For Kids
 slug: android-for-kids
 tags:
 - coding
