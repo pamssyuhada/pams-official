@@ -44,3 +44,5 @@ fields:
 - type: text
   name: materi
   label: materi
+pages:
+- content/kelas/pams-english-class-for-beginner.md
