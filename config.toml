@@ -1,0 +1,27 @@
+title = "Corps Dakwah Masjid Syuhada"
+baseurl = "https://cdmssyuhada.or.id/"
+
+# Agar front-matter pakai format YAML
+MetaDataFormat = "yaml"
+
+paginate = 6
+
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+# untuk apply temanya
+themesDir = "themes"
+theme = "cdmstheme"
+
+# Shortname disqus, silahkan sesuaikan
+DisqusShortname = "Cdms Syuhada"
+
+# Untuk Google Analytic, silahkan sesuikan
+googleAnalytics = "UA-80517197-1" 
+
+# Untuk deskripsi tag meta di homepage
+description = "Website Official Corps Dakwah Masjid Syuhada"
+
+# Biodata Author
+[author]
+    name = "Admin"
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">PAMS</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="about.html">About Us</a>
+                  <a class="nav-link" href="kelas.html">Class</a>
+                  <a class="nav-link" href="contact.html">Contact us</a>
+              </div>
+          </div>
+      </div>
+  </nav>
+    <!-- akhir header -->
+
+
+    <!-- jumbotron -->
+    <div class="jumbotron bg-white mt-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+                  <h1><b>Pinter Ngaji <br><span class="text-primary"> Jago It</span> </b></h1>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus. Rutrum arcu.
+                  <br>
+                  <button class="btn btn-primary mt-3 text-center " ><a href="#belajar" style="text-decoration: none; color:white;">Mulai Belajar</a> </button>
+              </div>
+              <div class="col-12 col-md-6 mt-3 pt-3 pt-md-0">
+                  <!-- <img src="img/bg.png" alt="" width="100%"> -->
+                     <!-- Swiper -->
+                     <div style="width:100%;min-height:300px;height:100%;">
+                          <div class="swiper mySwiper">
+                              <div class="swiper-wrapper">
+                                  <div class="swiper-slide"><img src="img/slider/1.png" alt=""></div>
+                                  <div class="swiper-slide"><img src="img/slider/2.jpg" alt=""></div>
+                                  <div class="swiper-slide"><img src="img/slider/3.jpg" alt=""></div>
+                                  <div class="swiper-slide"><img src="img/slider/4.jpg" alt=""></div>
+                                  <div class="swiper-slide"><img src="img/slider/5.JPG" alt=""></div>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- akhir jumbotron -->
+
+    <!-- kerjasama -->
+       <section class="kerjasama bg-birumuda py-5 px-3">
+        <div class="container text-center  py-5">
+            <h3 class="mb-3" >Yang Pernah Berkerjasama</h3>
+            <span style="max-width: 600px; display: block;margin: auto;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum dolorum laborum sapiente officiis! Aut, recusandae eligendi. Repellat, qui architecto.
+            </span>
+            <div>
+                <div class="row mt-5">
+                    
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/1.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/2.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/3.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/4.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/5.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/6.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/7.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/8.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/9.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/10.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/11.png" alt="" width="60%">
+                    </div>
+                    <div class="col-4 col-sm-3 mt-3 mt-sm-4 col-md-2">
+                        <img src="img/logo/12.png" alt="" width="60%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhnir kerjasama -->
+    
+    <h2 class="text-center mb-5 f-philo">Blog Terbaru</h2>
+    {{ partial "post-grid.html" . }}
+
+
+    <!-- testimoni -->
+    <section class="testimoni  py-5 px-3 bg-light">
+      <div class="container  py-5">
+          <div class="text-center">
+              <h3 class="mb-3" >Testimoni</h3>
+              <span style="max-width: 600px; display: block;margin: auto;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum dolorum laborum sapiente officiis! Aut, recusandae eligendi. Repellat, qui architecto.
+              </span>
+          </div>
+          <div class="row justify-content-center mt-3">
+              <div class="col-12 col-sm-6 col-md-4">
+                  <div class="card mt-4">
+                      <div class="card-body">
+                          <img  src="img/testi/testi-2.png" alt="" width="50px" class="float-left mr-3 rounded-circle">
+                          <div class="float-left">
+                              <b>Tyas Novatria</b> <br>
+                              <span>Peserta English For Kids</span>
+                          </div>
+                          <div class="clearfix"></div>
+                          <p class="mt-2">
+                              Bersyukur banget akhirnya bisa nemu tempat les yang cocok sama aku yang ngga hanya belajar satu arah tapi 2 arah, interaktif, dan asik, Pemahaman ku tentang Grammar bisa masuk banget ke aku. Bersyukur dan seneng lah bisa les di sini. Program nya aku banget,
+                          </p>
+                      
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                  <div class="card mt-4">
+                      <div class="card-body">
+                          <img  src="img/testi/testi.png" alt="" width="50px" class="float-left mr-3 rounded-circle">
+                          <div class="float-left">
+                              <b>Izza Wildan Ridhoni</b> <br>
+                              <span>Peserta Coding</span>
+                          </div>
+                          <div class="clearfix"></div>
+                          <p class="mt-2">
+                              Saya khusus mendedikasikan waktu saya untuk belajar ngoding. Di Pams belajarnya step by step, materinya up-to-date. Kalau ada eror, nggak bingung. Di sini saya juga belajar untuk nggak asal coding. CV pun jadi bagus. Saya jadi percaya diri.
+                          </p>
+                      
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                  <div class="card mt-4">
+                      <div class="card-body">
+                          <img  src="img/testi/testi-1.png" alt="" width="50px" class="float-left mr-3 rounded-circle">
+                          <div class="float-left">
+                              <b>Basyaratul Maghfiroh</b> <br>
+                              <span>Peserta Tpa For Kids</span>
+                          </div>
+                          <div class="clearfix"></div>
+                          <p class="mt-2">
+                              Sangat puas, tutornya asik dan baik, cara ngajarnya juga asik jadi lebih paham sama  materinya.
+                          </p>
+                      
+                      </div>
+                    </div>
+              </div>
+          </div>
+          
+          <div class="join bg-primary rounded p-5 text-white mt-5">
+                  <div class="text-center">
+                      <h3 class="mb-3" >Tunggu Apalagi</h3>
+                      <span style="max-width: 600px; display: block;margin: auto;">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum dolorum laborum sapiente officiis! Aut, recusandae eligendi. Repellat, qui architecto.
+                      </span>
+                      <a href="#belajar" class="btn btn-light text-primary mt-3" style="font-weight:bold;">Mulai Belajar</a>
+                  </div>
+              </div>
+      </div>
+  </section>
+    <!-- Akkhir testimoni -->
+   </script>
+    {{ partial "footer.html" . }} {{ partial "js-init.html" . }}
+    
+  </body>
+</html>
