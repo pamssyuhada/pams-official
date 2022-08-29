@@ -1,7 +1,7 @@
 ---
 date: 2022-03-12T17:00:00.000+00:00
-title: Kelas Coding For Kids
-slug: coding-for-kids
+title: Kelas Andropid For Kids
+slug: android-for-kids
 tags:
 - coding
 - coding for kids
@@ -10,14 +10,17 @@ tags:
 categories:
 - teknologi
 linkdaftar: https://bit.ly/Codinglevel2
-mentor: kak Wildan
-pendaftaran: 10 Agustus 2022 - 5 Desember 2022
-pelaksanaan: 6 Desember 2022
+mentor: Pak Muhammad Sholeh (Dosen Informatika - IST AKPRIND)
+pendaftaran: 15 Agustus - 16 September 2022
+pelaksanaan: 16 September - 01 Oktober 2022
 biaya: "100000"
-berapapertemuan: 10 x
+berapapertemuan: 6 x
 thumbnail: https://drive.google.com/uc?export=view&id=13zsh0u1Cm3NHWt7qo4VLblJRrMRhiXGj
 gambar: https://drive.google.com/uc?export=view&id=13zsh0u1Cm3NHWt7qo4VLblJRrMRhiXGj
-materi: 'belajar membuat game dengan menggunakan scratcth '
+materi: "\U0001D5E0\U0001D5D4\U0001D5E7\U0001D5D8\U0001D5E5\U0001D5DC : \U0001D5E0\U0001D5D8\U0001D5E0\U0001D5D5\U0001D5E8\U0001D5D4\U0001D5E7
+  \U0001D5D4\U0001D5E3\U0001D5DF\U0001D5DC\U0001D5DE\U0001D5D4\U0001D5E6\U0001D5DC
+  \U0001D5D4\U0001D5E1\U0001D5D7\U0001D5E5\U0001D5E2\U0001D5DC\U0001D5D7 \U0001D5E7\U0001D5D4\U0001D5E1\U0001D5E3\U0001D5D4
+  \U0001D5D6\U0001D5E2\U0001D5D7\U0001D5DC\U0001D5E1\U0001D5DA"
 
 ---
 Yuk ade" yang sudah perna mengikuti Coding For Kids Level 1 bisa nih lanjut ke Level 2 sudah dibuka Pendaftarannya loooooo.....  
