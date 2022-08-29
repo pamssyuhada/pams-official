@@ -2,5 +2,5 @@
  title: "About Us"
  layout: about
  draft: false
- thumbnail: https://iili.io/0zSqOP.jpg
+ thumbnail: https://drive.google.com/uc?export=view&id=1bggGL1lmU7_RTXhbSduoa3FervBoavTu
 ---

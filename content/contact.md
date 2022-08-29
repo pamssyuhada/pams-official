@@ -2,5 +2,5 @@
  title: "Contact Us"
  layout: contact
  draft: false
- thumbnail: https://iili.io/0zSqOP.jpg
+ thumbnail: https://drive.google.com/uc?export=view&id=1jAGd6MNKIqes_3RnAyEm-KcdH-Jr6Jb3
 ---
