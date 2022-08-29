@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    {{- partial "nav.html" . -}}
+    <div class="jumbotron bg-white mt-5 detail-kelas">
+        <div class="container">
+            <div class="contact">
+                <div class="text-center">
+                    <h1>Get in touch</h1>
+                    <p>
+                        We’d love to hear from you. Please fill out this form.
+                    </p>
+                </div>
+                
+                <form action="" class="mt-5">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="namaDepan">Nama Depan</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <label for="namaBelakang">Nama Belakang</label>
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea class="form-control" id="pesan" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Kirim Pesan</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    
+    
+ {{- partial "footer.html" . -}}
+    {{- partial "js-init.html" . -}}
+</html>

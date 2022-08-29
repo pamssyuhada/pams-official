@@ -13,13 +13,13 @@ themesDir = "themes"
 theme = "cdmstheme"
 
 # Shortname disqus, silahkan sesuaikan
-DisqusShortname = "Cdms Syuhada"
+DisqusShortname = "Pams Syuhada"
 
 # Untuk Google Analytic, silahkan sesuikan
 googleAnalytics = "UA-80517197-1" 
 
 # Untuk deskripsi tag meta di homepage
-description = "Website Official Corps Dakwah Masjid Syuhada"
+description = "Website Official Pendidikan Anak Masjid Syuhada"
 
 # Biodata Author
 [author]

@@ -1,5 +1,22 @@
 {{ define "main" }}
 <!-- isi main -->
-{{ partial "header.html" . }} {{ partial "post-grid.html" . }}
+{{ partial "header.html" . }}
+
+<section class="kerjasama  py-5 px-3 " id="belajar">
+    <div class="container py-5">
+        <div class="text-center">
+            <h3 class="mb-3" >Kelas Terbaru</h3>
+            <span style="max-width: 600px; display: block;margin: auto;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum dolorum laborum sapiente officiis! Aut, recusandae eligendi. Repellat, qui architecto.
+            </span>
+        </div>
+        <div class="row justify-content-center mt-3 kelas">
+            {{ partial "post-grid.html" . }}
+        <div>
+    </div>
+    <div class="d-flex justify-content-center">
+        {{template "_internal/pagination.html" .}}
+    </div>
+</section>
 <!-- isi main -->
 {{end}}

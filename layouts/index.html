@@ -1,23 +1,8 @@
 <!DOCTYPE html>
 <html>
     {{ partial "head.html" . }}
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
-      <div class="container">
-          <a class="navbar-brand" href="index.html">PAMS</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto">
-                  <a class="nav-link" href="index.html">Home</a>
-                  <a class="nav-link" href="about.html">About Us</a>
-                  <a class="nav-link" href="kelas.html">Class</a>
-                  <a class="nav-link" href="contact.html">Contact us</a>
-              </div>
-          </div>
-      </div>
-  </nav>
+  <body id="home">
+    {{- partial "nav.html" . -}}
     <!-- akhir header -->
 
 
@@ -105,9 +90,61 @@
     </section>
     <!-- akhnir kerjasama -->
     
-    <h2 class="text-center mb-5 f-philo">Blog Terbaru</h2>
-    {{ partial "post-grid.html" . }}
+     
+    <!-- kenapa Belajar Di PAms -->
+    <section class="kenapa bg-white py-5 px-3">
+        <div class="container text-center py-5">
+            <h3 class="mb-3" >Kenapa Belajar Di Pams</h3>
+            <span>
+                Belajar Asik Di Pendidikan Anak Masjid Syuhada
+            </span>
+            <div>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-4 p-2">
+                        <img src="img/kenapa/1.png" alt="">
+                        <h5 class="mt-4">Biaya Terjangkau</h5>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                        </span>
+                    </div>
+                    <div class="col-12 col-sm-4 p-2">
+                        <img src="img/kenapa/2.png" alt="">
+                        <h5 class="mt-4">Mentor Berpengalaman</h5>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                        </span>
+                    </div>
+                    <div class="col-12 col-sm-4 p-2">
+                        <img src="img/kenapa/3.png" alt="">
+                        <h5 class="mt-4">Konsultasi</h5>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- khir kenapa -->
 
+    <section class="kerjasama  py-5 px-3 bg-birumuda" id="belajar">
+        <div class="container py-5">
+            <div class="text-center">
+                <h3 class="mb-3" >Kelas Terbaru</h3>
+                <span style="max-width: 600px; display: block;margin: auto;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum dolorum laborum sapiente officiis! Aut, recusandae eligendi. Repellat, qui architecto.
+                </span>
+            </div>
+            <div class="row justify-content-center mt-3 kelas">
+                 {{ partial "post-grid.html" . }}
+                </div>
+            </div>
+                <!-- {{template "_internal/pagination.html" .}} -->
+            <center>
+                <a href="/kelas" target="_blank" class="btn btn-primary mt-5 px-5">Selengkapnya ></a>
+            </center>
+        </section>
 
     <!-- testimoni -->
     <section class="testimoni  py-5 px-3 bg-light">
