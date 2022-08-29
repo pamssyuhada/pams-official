@@ -26,7 +26,7 @@ fields:
 - type: text
   name: pendaftaran
   label: pendaftaran
-- type: datetime
+- type: text
   name: pelaksanaan
   label: pelaksanaan
 - type: text
