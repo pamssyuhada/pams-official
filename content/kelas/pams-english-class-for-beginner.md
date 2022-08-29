@@ -1,5 +1,5 @@
 ---
-date: 2022-08-28T17:00:00+00:00
+date: 2022-08-28T17:00:00.000+00:00
 title: Pams English Class For Beginner
 slug: Pams English Class For Beginner
 tags:
@@ -10,7 +10,7 @@ categories:
 linkdaftar: https://bit.ly/DaftarkelasPams3
 mentor: Ustadzah Dwi Rohmatin
 pendaftaran: 24 - 30 Agustus 2022
-pelaksanaan: 2022-08-29T17:00:00+00:00
+pelaksanaan: " 31 Agustus 2022 - selesai"
 biaya: "84000"
 berapapertemuan: "15"
 thumbnail: https://drive.google.com/uc?export=view&id=11uF_vbSO9kLW7oQs8qe91VcuU45i_K7L
